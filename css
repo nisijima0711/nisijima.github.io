@@ -1,0 +1,336 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* スマートフォン向けのスタイル */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        margin: 0 30px; /* リンク間のマージンを縮小 */
+    }
+
+    .button,
+    .button2,
+    .button3 {
+        width: 80%; /* ボタンの幅を調整 */
+        left: 10%; /* ボタンの水平位置を中央に調整 */
+    }
+
+    .asuka,
+    .ringo,
+    .kuruma,
+    .kome,
+    .hgn,
+    .yuni {
+        left: 50%; /* 画像の水平位置を中央に調整 */
+        transform: translateX(-50%); /* 水平方向に中央揃え */
+        width: 90%; /* 画像の幅を調整 */
+    }
+}
+
+/* タブレット向けのスタイル */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    nav ul li {
+        margin: 0 50px; /* リンク間のマージンを中程度に */
+    }
+
+    .button,
+    .button2,
+    .button3 {
+        width: 30%; /* ボタンの幅を調整 */
+    }
+
+    .asuka,
+    .ringo,
+    .kuruma,
+    .kome,
+    .hgn,
+    .yuni {
+        width: 70%; /* 画像の幅を調整 */
+    }
+}
+
+/* デスクトップ向けのスタイル */
+@media screen and (min-width: 1025px) {
+    nav ul li {
+        margin: 0 100px; /* リンク間のマージンを広めに */
+    }
+
+    .button,
+    .button2,
+    .button3 {
+        width: 415px; /* ボタンのデフォルトの幅に戻す */
+    }
+
+    .asuka,
+    .ringo,
+    .kuruma,
+    .kome,
+    .hgn,
+    .yuni {
+        width: auto; /* 画像の幅をデフォルトのサイズに戻す */
+    }
+}
+
+nav{
+    height: 150px;
+    width: 1920px;
+    text-align: center;
+    font-family: 'A-OTF-ソフトゴシック-Std', sans-serif;
+    }
+    nav ul{
+    margin: 0 ;
+    padding: 0 ;
+    }
+    nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 100px;
+    width: 20%;
+    min-width: 90px;
+    font-weight: bolder; /* フォントを太くする */
+    font-size: 65px;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: #333;
+    }
+    nav ul li a:hover{
+    color: #E7DA66;
+    }
+
+.meinbiju {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 150; /* 上端からの位置 */
+    left: 0; /* 左端からの位置 */
+    width: 1920px; /* 幅 */
+    height: 930px; /* 高さ */
+    background-image: url('img/sonota/メインビジュアル.jpg'); /* 画像 */
+    background-position: 0 150; /* x軸方向、y軸方向に配置 */
+    background-size: 1920 930px; /* 幅1920px、高さ930 */
+}
+
+.brokku {
+    width: 1920px;
+    height: 11440px;
+    background-color: #FFD51B; /* ウェブサイトの背景色を指定 */
+}
+
+.contenr {
+    position: relative;
+    width: 1020px;
+    height: 484px;
+}
+
+.image-wrapper {
+    position: absolute;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    position: absolute;
+    left: 596px;
+    top: 1588px;
+    width: 415px;
+    height: 129px;
+    background-color: #FF8212;
+    text-align: center;
+    line-height: 130px; /* ボタンの高さに合わせてテキストを中央揃え */
+    color: #FFF;
+    font-size: 30px;
+    font-family: "A-OTF ソフトゴシック Std"; 
+    cursor: pointer; /* カーソルをポインターに設定 */
+    transition: background-color 0.3s; /* ボタンの背景色が変化する際のアニメーションを設定 */
+}
+
+.button:hover {
+    background-color: rgba(255, 130, 18, 0.8); /* カーソルを当てたときの背景色を半透明にする */
+}
+
+.button2 {
+    position: absolute;
+    left: 596px;
+    top: 2175px;
+    width: 415px;
+    height: 129px;
+    background-color: #363FEA;
+    text-align: center;
+    line-height: 130px; /* ボタンの高さに合わせてテキストを中央揃え */
+    color: #FFF;
+    font-size: 30px;
+    font-family: "A-OTF ソフトゴシック Std"; 
+    cursor: pointer; /* カーソルをポインターに設定 */
+    transition: background-color 0.3s; /* ボタンの背景色が変化する際のアニメーションを設定 */
+}
+
+.button2:hover {
+    background-color: rgba(54, 63, 234, 0.8); /* カーソルを当てたときの背景色を半透明にする */
+}
+
+.button3 {
+    position: absolute;
+    left: 596px;
+    top: 2763px;
+    width: 415px;
+    height: 130px;
+    background-color: #19A42C; /* 背景色を指定 */
+    text-align: center;
+    line-height: 130px; /* ボタンの高さに合わせてテキストを中央揃え */
+    color: #FFF;
+    font-size: 30px;
+    font-family: "A-OTF ソフトゴシック Std"; 
+    cursor: pointer; /* カーソルをポインターに設定 */
+    transition: background-color 0.3s; /* ボタンの背景色が変化する際のアニメーションを設定 */
+}
+
+.button3:hover {
+    background-color: rgba(25, 164, 44, 0.8); /* カーソルを当てたときの背景色を半透明にする */
+}
+
+.text {
+    position: absolute;
+    font-family: "A-OTF ソフトゴシック Std"; /* ソフトゴシックのフォントを指定 */
+    font-weight: bolder;
+    font-size: 120px; /* サイズを120に設定 */
+    text-align: center; /* テキストをセンター揃えに設定 */
+}
+
+.asuka {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 3816px; /* 上端からの位置 */
+    left: 432px; /* 左端からの位置 */
+    width: 472px; /* 幅 */
+    height: 600px; /* 高さ */
+    background-image: url('img/sakuhin/飛鳥ポスター.png'); /* 画像 */
+    background-position: 472 3816; /* x軸方向、y軸方向に配置 */
+    background-size: 472px 600px; /* 幅,高さ */
+}
+
+.ringo {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 3816px; /* 上端からの位置 */
+    left: 1017px; /* 左端からの位置 */
+    width: 470px; /* 幅 */
+    height: 600px; /* 高さ */
+    background-image: url('img/sakuhin/毒林檎ポスター.png'); /* 画像 */
+    background-position: 1017 3816; /* x軸方向、y軸方向に配置 */
+    background-size: 470px 600px; /* 幅,高さ */
+}
+
+.kuruma {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 4480px; /* 上端からの位置 */
+    left: 432px; /* 左端からの位置 */
+    width: 471px; /* 幅 */
+    height: 600px; /* 高さ */
+    background-image: url('img/sakuhin/スマートポスター.png'); /* 画像 */
+    background-position: 432 4480; /* x軸方向、y軸方向に配置 */
+    background-size: 471px 600px; /* 幅,高さ */
+}
+
+.kome {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 4480px; /* 上端からの位置 */
+    left: 1017px; /* 左端からの位置 */
+    width: 471px; /* 幅 */
+    height: 600px; /* 高さ */
+    background-image: url('img/sakuhin/米ポスター.png'); /* 画像 */
+    background-position: 1017 4480; /* x軸方向、y軸方向に配置 */
+    background-size: 471px 600px; /* 幅,高さ */
+}
+
+.hgn {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 5167px; /* 上端からの位置 */
+    left: 432px; /* 左端からの位置 */
+    width: 471px; /* 幅 */
+    height: 370px; /* 高さ */
+    background-image: url('img/sakuhin/ハーゲンダッツカード.png'); /* 画像 */
+    background-position: 432 5160; /* x軸方向、y軸方向に配置 */
+    background-size: 471px 370px; /* 幅,高さ */
+}
+
+.yuni {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 5148px; /* 上端からの位置 */
+    left: 1017px; /* 左端からの位置 */
+    width: 471px; /* 幅 */
+    height: 408px; /* 高さ */
+    background-image: url('img/sakuhin/ユニセフバナー.png'); /* 画像 */
+    background-position: 1017 5148; /* x軸方向、y軸方向に配置 */
+    background-size: 471px 408px; /* 幅,高さ */
+}
+
+.ABOUTO {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 6283px; /* 上端からの位置 */
+    left: 73px; /* 左端からの位置 */
+    width: 1728px; /* 幅 */
+    height: 1046px; /* 高さ */
+    background-image: url('img/sonota/自己紹介.png'); /* 画像 */
+    background-position: 73 6286; /* x軸方向、y軸方向に配置 */
+    background-size: 1728 1046px; /* 幅,高さ */
+}
+.SKILL {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 8255px; /* 上端からの位置 */
+    left: 120px; /* 左端からの位置 */
+    width: 1680px; /* 幅 */
+    height: 1071px; /* 高さ */
+    background-image: url('img/sonota/スキル.png'); /* 画像 */
+    background-position: 120 8255; /* x軸方向、y軸方向に配置 */
+    background-size: 1680px 1071px; /* 幅,高さ */
+}
+
+.Instagram {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 10426px; /* 上端からの位置 */
+    left: 162px; /* 左端からの位置 */
+    width: 317px; /* 幅 */
+    height: 318px; /* 高さ */
+    background-image: url('img/logo/インスタ.png'); /* 画像 */
+    background-position: 162 10426; /* x軸方向、y軸方向に配置 */
+    background-size: 317px 318px; /* 幅,高さ */
+}
+.Twitter {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 10426px; /* 上端からの位置 */
+    left: 588px; /* 左端からの位置 */
+    width: 318px; /* 幅 */
+    height: 318px; /* 高さ */
+    background-image: url('img/logo/ツイッター.png'); /* 画像 */
+    background-position: 588 10426; /* x軸方向、y軸方向に配置 */
+    background-size: 318px 318px; /* 幅,高さ */
+}
+.Facebook {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 10426px; /* 上端からの位置 */
+    left: 1015px; /* 左端からの位置 */
+    width: 318px; /* 幅 */
+    height: 318px; /* 高さ */
+    background-image: url('img/logo/フェイスブック.png'); /* 画像 */
+    background-position: 1015 10426; /* x軸方向、y軸方向に配置 */
+    background-size: 318px 318px; /* 幅,高さ */
+}
+.LINE {
+    position: absolute; /* 要素を絶対位置に配置 */
+    top: 10426px; /* 上端からの位置 */
+    left: 1442px; /* 左端からの位置 */
+    width: 317px; /* 幅 */
+    height: 318px; /* 高さ */
+    background-image: url('img/logo/ライン.png'); /* 画像 */
+    background-position: 1442 10426; /* x軸方向、y軸方向に配置 */
+    background-size: 317px 318px; /* 幅,高さ */
+}
+
+.footer {
+    width: 1920px;
+    height: 150px;
+    background-color: #604020;
+}
