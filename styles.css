@@ -107,7 +107,7 @@ nav{
     left: 0; /* 左端からの位置 */
     width: 1920px; /* 幅 */
     height: 930px; /* 高さ */
-    background-image: url('img/sonota/メインビジュアル.jpg'); /* 画像 */
+    background-image: url('sonota/メインビジュアル.jpg'); /* 画像 */
     background-position: 0 150; /* x軸方向、y軸方向に配置 */
     background-size: 1920 930px; /* 幅1920px、高さ930 */
 }
@@ -207,7 +207,7 @@ nav{
     left: 432px; /* 左端からの位置 */
     width: 472px; /* 幅 */
     height: 600px; /* 高さ */
-    background-image: url('img/sakuhin/飛鳥ポスター.png'); /* 画像 */
+    background-image: url('sakuhin/飛鳥ポスター.png'); /* 画像 */
     background-position: 472 3816; /* x軸方向、y軸方向に配置 */
     background-size: 472px 600px; /* 幅,高さ */
 }
@@ -218,7 +218,7 @@ nav{
     left: 1017px; /* 左端からの位置 */
     width: 470px; /* 幅 */
     height: 600px; /* 高さ */
-    background-image: url('img/sakuhin/毒林檎ポスター.png'); /* 画像 */
+    background-image: url('sakuhin/毒林檎ポスター.png'); /* 画像 */
     background-position: 1017 3816; /* x軸方向、y軸方向に配置 */
     background-size: 470px 600px; /* 幅,高さ */
 }
@@ -229,7 +229,7 @@ nav{
     left: 432px; /* 左端からの位置 */
     width: 471px; /* 幅 */
     height: 600px; /* 高さ */
-    background-image: url('img/sakuhin/スマートポスター.png'); /* 画像 */
+    background-image: url('sakuhin/スマートポスター.png'); /* 画像 */
     background-position: 432 4480; /* x軸方向、y軸方向に配置 */
     background-size: 471px 600px; /* 幅,高さ */
 }
@@ -240,7 +240,7 @@ nav{
     left: 1017px; /* 左端からの位置 */
     width: 471px; /* 幅 */
     height: 600px; /* 高さ */
-    background-image: url('img/sakuhin/米ポスター.png'); /* 画像 */
+    background-image: url('sakuhin/米ポスター.png'); /* 画像 */
     background-position: 1017 4480; /* x軸方向、y軸方向に配置 */
     background-size: 471px 600px; /* 幅,高さ */
 }
@@ -251,7 +251,7 @@ nav{
     left: 432px; /* 左端からの位置 */
     width: 471px; /* 幅 */
     height: 370px; /* 高さ */
-    background-image: url('img/sakuhin/ハーゲンダッツカード.png'); /* 画像 */
+    background-image: url('sakuhin/ハーゲンダッツカード.png'); /* 画像 */
     background-position: 432 5160; /* x軸方向、y軸方向に配置 */
     background-size: 471px 370px; /* 幅,高さ */
 }
@@ -262,7 +262,7 @@ nav{
     left: 1017px; /* 左端からの位置 */
     width: 471px; /* 幅 */
     height: 408px; /* 高さ */
-    background-image: url('img/sakuhin/ユニセフバナー.png'); /* 画像 */
+    background-image: url('sakuhin/ユニセフバナー.png'); /* 画像 */
     background-position: 1017 5148; /* x軸方向、y軸方向に配置 */
     background-size: 471px 408px; /* 幅,高さ */
 }
@@ -273,7 +273,7 @@ nav{
     left: 73px; /* 左端からの位置 */
     width: 1728px; /* 幅 */
     height: 1046px; /* 高さ */
-    background-image: url('img/sonota/自己紹介.png'); /* 画像 */
+    background-image: url('sonota/自己紹介.png'); /* 画像 */
     background-position: 73 6286; /* x軸方向、y軸方向に配置 */
     background-size: 1728 1046px; /* 幅,高さ */
 }
@@ -283,7 +283,7 @@ nav{
     left: 120px; /* 左端からの位置 */
     width: 1680px; /* 幅 */
     height: 1071px; /* 高さ */
-    background-image: url('img/sonota/スキル.png'); /* 画像 */
+    background-image: url('sonota/スキル.png'); /* 画像 */
     background-position: 120 8255; /* x軸方向、y軸方向に配置 */
     background-size: 1680px 1071px; /* 幅,高さ */
 }
@@ -294,7 +294,7 @@ nav{
     left: 162px; /* 左端からの位置 */
     width: 317px; /* 幅 */
     height: 318px; /* 高さ */
-    background-image: url('img/logo/インスタ.png'); /* 画像 */
+    background-image: url('logo/インスタ.png'); /* 画像 */
     background-position: 162 10426; /* x軸方向、y軸方向に配置 */
     background-size: 317px 318px; /* 幅,高さ */
 }
@@ -304,7 +304,7 @@ nav{
     left: 588px; /* 左端からの位置 */
     width: 318px; /* 幅 */
     height: 318px; /* 高さ */
-    background-image: url('img/logo/ツイッター.png'); /* 画像 */
+    background-image: url('logo/ツイッター.png'); /* 画像 */
     background-position: 588 10426; /* x軸方向、y軸方向に配置 */
     background-size: 318px 318px; /* 幅,高さ */
 }
@@ -314,7 +314,7 @@ nav{
     left: 1015px; /* 左端からの位置 */
     width: 318px; /* 幅 */
     height: 318px; /* 高さ */
-    background-image: url('img/logo/フェイスブック.png'); /* 画像 */
+    background-image: url('logo/フェイスブック.png'); /* 画像 */
     background-position: 1015 10426; /* x軸方向、y軸方向に配置 */
     background-size: 318px 318px; /* 幅,高さ */
 }
@@ -324,7 +324,7 @@ nav{
     left: 1442px; /* 左端からの位置 */
     width: 317px; /* 幅 */
     height: 318px; /* 高さ */
-    background-image: url('img/logo/ライン.png'); /* 画像 */
+    background-image: url('logo/ライン.png'); /* 画像 */
     background-position: 1442 10426; /* x軸方向、y軸方向に配置 */
     background-size: 317px 318px; /* 幅,高さ */
 }
