@@ -107,7 +107,7 @@ nav{
     left: 0; /* 左端からの位置 */
     width: 1920px; /* 幅 */
     height: 930px; /* 高さ */
-    background-image: url('sonota/メインビジュアル.jpg'); /* 画像 */
+    background-image: url('sonota/メインビジュアル.jpg');
     background-position: 0 150; /* x軸方向、y軸方向に配置 */
     background-size: 1920 930px; /* 幅1920px、高さ930 */
 }
